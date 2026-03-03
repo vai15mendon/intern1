@@ -1,0 +1,132 @@
+===============================================
+  MANUAL GIT COMMANDS TO PUSH TO GITHUB
+===============================================
+
+STEP 1: Install Git
+-------------------
+Download from: https://git-scm.com/download/win
+Install and restart your terminal
+
+
+STEP 2: Open Terminal in Project Folder
+----------------------------------------
+cd C:\Users\ADMIN\Downloads\intteeerrrrrnnnnn
+
+
+STEP 3: Run These Commands One by One
+--------------------------------------
+
+# Initialize Git repository
+git init
+
+# Add all files to staging
+git add .
+
+# Commit the changes
+git commit -m "Initial commit: Portfolio website with animations"
+
+# Add your GitHub repository as remote
+git remote add origin https://github.com/vai15mendon/intern.git
+
+# Rename branch to main
+git branch -M main
+
+# Push to GitHub (you'll be asked for credentials)
+git push -u origin main
+
+
+STEP 4: Enter GitHub Credentials
+---------------------------------
+Username: vai15mendon
+Password: [Use Personal Access Token - NOT your GitHub password]
+
+Generate Token at: https://github.com/settings/tokens
+- Click "Generate new token (classic)"
+- Select "repo" scope
+- Copy the token and use it as password
+
+
+===============================================
+  ALTERNATIVE: USE GITHUB DESKTOP
+===============================================
+
+1. Download GitHub Desktop
+   https://desktop.github.com/
+
+2. Install and sign in with your GitHub account
+
+3. File → Add Local Repository
+   Select: C:\Users\ADMIN\Downloads\intteeerrrrrnnnnn
+
+4. Click "Publish repository"
+   Repository name: intern
+   Click "Publish Repository"
+
+Done! Your code is now on GitHub!
+
+
+===============================================
+  VERIFY SUCCESS
+===============================================
+
+Visit: https://github.com/vai15mendon/intern
+
+You should see all your portfolio files there!
+
+
+===============================================
+  DEPLOY TO VERCEL (FREE HOSTING)
+===============================================
+
+1. Visit: https://vercel.com
+2. Sign in with GitHub
+3. Click "New Project"
+4. Import repository: vai15mendon/intern
+5. Click "Deploy"
+
+Your portfolio will be live at:
+https://intern-[random].vercel.app
+
+
+===============================================
+  NEED HELP?
+===============================================
+
+Read these files in your project:
+- DEPLOYMENT_GUIDE.md (Detailed instructions)
+- QUICK_START.md (Quick overview)
+- README.md (Full documentation)
+
+Or run these scripts:
+- push-to-github.bat (Windows Batch)
+- push-to-github.ps1 (PowerShell)
+
+
+===============================================
+  TROUBLESHOOTING
+===============================================
+
+Error: "git: command not found"
+Solution: Install Git from https://git-scm.com/download/win
+
+Error: "Permission denied"
+Solution: Use Personal Access Token instead of password
+
+Error: "Repository not found"
+Solution: Make sure https://github.com/vai15mendon/intern exists
+         Create it on GitHub first if it doesn't exist
+
+Error: "Remote already exists"
+Solution: git remote remove origin
+         git remote add origin https://github.com/vai15mendon/intern.git
+
+
+===============================================
+  CONTACT
+===============================================
+
+Email: vaishnavimendonj5@gmail.com
+GitHub: vai15mendon
+LinkedIn: linkedin.com/in/vaishnavi-mendon-j
+
+===============================================
